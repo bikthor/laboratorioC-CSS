@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,900');
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    margin: 0px;
+    background-color: darkslategray;
+    color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row;
+    gap: 10px 10px;
+    padding: 10px;
+}
+
+
+main img {
+    width: 32vw;
+    height: auto;
+}
+
+main img:hover {
+    box-sizing: border-box;
+    border: 1px solid darkgray;
+    transform: scale(1.1);
+}
